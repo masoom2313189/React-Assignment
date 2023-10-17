@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./ExpenseInfo.module.css";
 
 const ExpenseInfo = (props) => {
   // Add logic here to calculate the grand total, profit and expense amount here
+  const [data, setData] = useState(0);
   return (
     <div className={styles.expenseInfoContainer}>
       <div className={styles.balance}>
