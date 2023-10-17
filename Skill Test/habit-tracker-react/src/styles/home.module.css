@@ -1,0 +1,72 @@
+.container{
+   
+    /* background-color:azure; */
+    margin: auto ;
+}
+
+.addHabit{
+    margin: auto;
+    width: fit-content;
+    background-color: lightgray;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.addHabit input{
+    border : 2px ; 
+    background-color : lightgray;
+    font-weight: 600;
+    outline : none ; 
+    font-size: 20px;
+}
+
+.habitCardContainer{
+    width:80%;
+    margin: auto;
+   
+}
+
+.habitCard{
+    width: 100% ; 
+    height: fit-content ; 
+    border: 1px solid #a1f7e1; 
+    background-color: lightgray;
+    padding: 10px ;
+    margin: 20px 0px;
+}
+
+.habitCardTitle{
+     display: flex;
+     justify-content: space-between;
+     
+}
+.habitActionName{
+    display: flex;
+    cursor: pointer;
+}
+
+.cardName{
+   font-weight: 600;
+   color: rgb(118, 190, 70);
+   font-size: 20px ;
+   margin-left: 10px ; 
+}
+
+.weeklyProgress{
+    margin-top: 10px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.habitCardCheckIcon{
+   font-size: 20px;
+   color: black ;
+}
+
+.habitCardCrossIcon{
+    font-size: 20px ;
+    color: red ;
+}
+
+
