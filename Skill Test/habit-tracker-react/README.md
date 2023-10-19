@@ -1,3 +1,9 @@
+# Live
+https://exquisite-pie-14a40c.netlify.app/
+
+# Preview
+![image-removebg-preview (3)](https://github.com/masoom2313189/React-Assignment/assets/105916377/a4befb8a-d1f5-41d0-ac16-97d90638d600)
+
 # Habit Tracker React App
 
 A habit tracker app project in which user can add habit and track all the previous six days status .
