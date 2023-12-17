@@ -38,7 +38,7 @@
         "https://res.cloudinary.com/dl26pbek4/image/upload/v1674557549/assets/yannis-zaugg--7TB_r-NuMo-unsplash_tdmglm.jpg",
         "https://res.cloudinary.com/dl26pbek4/image/upload/v1674557550/assets/lino-C2SzUyg3PPQ-unsplash_s8a4tg.jpg",
         "https://res.cloudinary.com/dl26pbek4/image/upload/v1674557550/assets/curioso-photography-QfOhOcrDmvk-unsplash_vgbb3t.jpg",
-        "https://res.cloudinary.com/dl26pbek4/image/upload/v1674620718/assets/pexels-garvin-st-villier-3311574_ds8wrh.jpg",
+        "https://res.cloudinary.com/dl26pbek4/image/upload/v1674620718/assets/pexels-garvin-st-villier-3311574_ds8wrh.jpg"
       ];
 
       const Login = () => (
@@ -62,12 +62,19 @@
         </div>
       );
 
-      // create premium account component here
+      const PremiumAccount = () => <button>Buy Premium</button>;
 
       const App = () => {
-        // create login status and name variable here
+        const name = "John Doe";
+        const isLoggedIn = true;
 
-        return <>{/* render data here */}</>;
+        return (
+          <>
+            <h1>Hello {name || "Guest"}!</h1>
+            {isLoggedIn && <PremiumAccount />}
+            {isLoggedIn ? <Home /> : <Login />}
+          </>
+        );
       };
 
       const rootElement = ReactDOM.createRoot(document.getElementById("root"));
@@ -75,3 +82,4 @@
     </script>
   </body>
 </html>
+
