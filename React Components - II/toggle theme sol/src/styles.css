@@ -1,0 +1,17 @@
+.images{
+  height: 590px;
+  width: 100%;
+}
+
+.light {
+    background-color: #f0f0f0;
+    color: #333;
+  text-align: center;
+  }
+  
+  /* Dark theme styles */
+.dark {
+    background-color: #333;
+    color: #f0f0f0;
+    text-align: center;
+  }
